@@ -63,7 +63,7 @@ export default function Hero() {
   const images = [
     'https://img.freepik.com/free-photo/startup-business-people-working-laptop_53876-42715.jpg?t=st=1729265516~exp=1729269116~hmac=7f16d8b8c2ee7e87934e3ed135c79bab1ce0ccd34b328e60244f4f6669968a92&w=900',
     'https://img.freepik.com/free-photo/medium-shot-people-working-office-together_23-2149337277.jpg?semt=ais_hybrid',
-    'https://stock.adobe.com/ng/images/empty-workplace-empty-office-empty-office-workspace-deserted-office-interior/914126791'
+   
   ];
 
   // Change the image every 3 seconds
@@ -83,13 +83,16 @@ export default function Hero() {
     >
         
       <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
-      <div className="absolute inset-y-0 left-0 w-1/2 backdrop-blur-lg"></div> {/* Blur overlay */}
+      <div className="absolute inset-y-0 left-0 w-full " style={{background: 'rgba(0,0,0,0.5)'}}></div> {/* Blur overlay */}
+        
+      {/* <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+      <div className="absolute inset-y-0 left-0 w-full " style={{background: 'rgba(0,0,0,0.7)'}}></div>  */}
 
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div className="max-w-xl text-left ltr:sm:text-left rtl:sm:text-right">
-          <h1 className="text-3xl font-extrabold text-stone-800 sm:text-5xl">
+          <h1 className="text-3xl font-extrabold text-gray-300 sm:text-5xl">
             Let us find your
-            <h2 className="text-4xl block font-extrabold text-stone-800"> Forever Home. </h2>
+            <h2 className="text-4xl block font-extrabold text-gray-300"> Forever Home. </h2>
           </h1>
 
           <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
