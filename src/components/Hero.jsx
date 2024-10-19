@@ -90,9 +90,9 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div className="max-w-xl text-left ltr:sm:text-left rtl:sm:text-right">
-          <h1 className="text-5xl font-extrabold text-gray-300 sm:text-5xl">
+          <h1 className="text-5xl font-extrabold text-gray-100 sm:text-5xl">
           Empowering Teams
-            <h2 className="text-6xl block font-extrabold text-gray-300"> Building Futures. </h2>
+            <h2 className="text-6xl block font-extrabold text-gray-100"> Building Futures. </h2>
           </h1>
 
           <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">

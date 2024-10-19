@@ -4,8 +4,8 @@ export default function About() {
         <div className="font-sans bg-gray-900 p-6">
           
           <section className="text-center mb-16">
-            <h2 className="text-3xl font-semibold text-gray-700">About Us</h2>
-            <p className="mt-4 text-lg text-gray-500">
+            <h2 className="text-3xl font-semibold text-white">About Us</h2>
+            <p className="mt-4 text-lg text-white">
               Discover the latest features, trends, and technology in human resource development and employee management.
             </p>
           </section>
