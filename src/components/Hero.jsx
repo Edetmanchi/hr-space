@@ -70,7 +70,7 @@ export default function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
@@ -90,14 +90,13 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div className="max-w-xl text-left ltr:sm:text-left rtl:sm:text-right">
-          <h1 className="text-3xl font-extrabold text-gray-300 sm:text-5xl">
-            Let us find your
-            <h2 className="text-4xl block font-extrabold text-gray-300"> Forever Home. </h2>
+          <h1 className="text-5xl font-extrabold text-gray-300 sm:text-5xl">
+          Empowering Teams
+            <h2 className="text-6xl block font-extrabold text-gray-300"> Building Futures. </h2>
           </h1>
 
           <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
-            numquam ea!
+          Streamline your HR processes with our all-in-one platform. Manage talent, enhance employee engagement, and drive organizational growth effortlessly!
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">
