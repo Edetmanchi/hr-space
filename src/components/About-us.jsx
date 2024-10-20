@@ -12,7 +12,7 @@ export default function About() {
           </section>
   
           {/* Services Section */}
-          <div className=" justify-around hidden md:grid-cols-5 px-6 sm:grid-cols-1">
+          <div className=" justify-around grid md:grid-cols-5 px-6 sm:grid-cols-2 gap-5">
             <div className=" justify-between items-center bg-[#87AFB1] py-3 px-2 mx-4 text-center rounded-3xl shadow-xl transform transition-transform duration-300 hover:scale-105">
                 <svg
                     viewBox="0 0 512 512"
@@ -56,7 +56,7 @@ export default function About() {
                 </div>
               
             </div>
-            <div className=" justify-between items-center bg-[#87AFB1] py-3 px-2 mx-4 text-center rounded-3xl shadow-xl transform transition-transform duration-300 hover:scale-105"> 
+            <div className=" justify-between items-center bg-[#87AFB1] py-3 px-2 mx-4 text-center rounded-3xl shadow-xl transform transition-transform duration-300 hover:scale-105">  
                 <svg
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -64,8 +64,9 @@ export default function About() {
                     width="5em"
                     className="mx-auto mb-2 text-stone-800"
                     >
-                    <path d="M11.94 3A3.993 3.993 0 008 7c-.06 1.64-.19 3.47-.97 4.59C9.71 13.22 12 13 12 13s2.29.22 4.97-1.41C16.12 10.22 15.94 8.54 16 7c0-2.21-1.79-4-4-4h-.06M8.86 13.32C6 13.93 4 15.35 4 17v4h8l-3-4H6.5m5.5 4l1.78-7.19S13 14 12 14s-1.78-.19-1.78-.19M12 21h8v-4c0-1.65-2-3.07-4.86-3.68L17.5 17H15z" />
-                </svg>   
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path d="M12 11a5 5 0 015 5v6H7v-6a5 5 0 015-5zm-6.712 3.006a6.983 6.983 0 00-.28 1.65L5 16v6H2v-4.5a3.5 3.5 0 013.119-3.48l.17-.014zm13.424 0A3.501 3.501 0 0122 17.5V22h-3v-6c0-.693-.1-1.362-.288-1.994zM5.5 8a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm13 0a2.5 2.5 0 110 5 2.5 2.5 0 010-5zM12 2a4 4 0 110 8 4 4 0 010-8z" />
+                </svg>  
                 <div className="">
                     <h3 className="text-3xl font-bold text-stone-800">Talent Acquisition</h3>
                     <p className="mt-4 text-stone-900">
@@ -112,7 +113,7 @@ export default function About() {
                 <div className="">
                     <h3 className="text-3xl font-bold text-stone-800">HR Consulting</h3>
                     <p className="mt-4 text-stone-900">
-                        Recruit the best talents with our streamlined services.
+                        We provide tailored strategies to optimize your workforce management
                     </p>
                     <button className="mt-6 bg-stone-800 text-white py-2 px-7 rounded hover:bg-stone-600">
                         Explore
